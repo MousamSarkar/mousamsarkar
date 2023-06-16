@@ -1,6 +1,6 @@
 import React from "react";
 // import Button from "./Button";
-import { linkedinlogo } from "../assets";
+import { linkedinlogo, githublogo } from "../assets";
 
 const Button = ({ onClick, children, as: Component = "button", ...rest }) => {
   return (
@@ -11,11 +11,28 @@ const Button = ({ onClick, children, as: Component = "button", ...rest }) => {
 };
 const Social = () => {
   return (
-    <div>
-      <Button as="a" href="https://www.linkedin.com/in/mousam-sarkar/">
-        <img src={linkedinlogo} alt="logo" className="w-9 h-9 object-contain" />
-      </Button>
-    </div>
+    <>
+      <ul className="list-none sm:flex flex-row gap-3">
+        <li>
+          <Button as="a" href="https://www.linkedin.com/in/mousam-sarkar/">
+            <img
+              src={linkedinlogo}
+              alt="logo"
+              className={`w-6 h-6 object-contain cursor-pointer sm:flex`}
+            />
+          </Button>
+        </li>
+        <li>
+          <Button as="a" href="https://github.com/MousamSarkar/">
+            <img
+              src={githublogo}
+              alt="logo"
+              className={`w-6 h-6 object-contain cursor-pointer sm:flex`}
+            />
+          </Button>
+        </li>
+      </ul>
+    </>
   );
 };
 

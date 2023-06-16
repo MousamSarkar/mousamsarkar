@@ -32,6 +32,7 @@ import {
   tflogo,
   tomcatlogo,
   urbancode,
+  portfolio_page,
 } from "../assets";
 
 export const navLinks = [
@@ -198,7 +199,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: movie_review,
+    image: portfolio_page,
     // source_code_link: "https://github.com/",
   },
   {

@@ -43,6 +43,8 @@ import tflogo from "./tech/tflogo.png";
 import tomcatlogo from "./tech/tomcatlogo.png";
 import urbancode from "./tech/urbancode.png";
 import linkedinlogo from "./linkedinlogo.png";
+import portfolio_page from "./portfolio_page.png";
+import githublogo from "./githublogo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -95,4 +97,6 @@ export {
   tomcatlogo,
   urbancode,
   linkedinlogo,
+  portfolio_page,
+  githublogo,
 };
